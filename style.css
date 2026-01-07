@@ -1,8 +1,6 @@
 .font-work-sans {
   font-family: 'Work Sans', sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 * {
@@ -12,30 +10,52 @@
 }
 
 .banner {
-  background-image: url(images/banner/banner1.png);
   height: 808px;
   width: 1600px;
-  display: flex;
+  background-image: url('images/banner/banner1.png');
   background-size: cover;
   background-position: center;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 80px;
 }
+
 .banner-content {
-  width: 595px;
-  height: 228px;
-  position: 775px 216px;
+  margin-right: 230px;
 }
+
 .banner-content h1 {
-  font-weight: bold;
   font-size: 65px;
+  font-weight: bold;
+
   color: #151414;
+  height: 228px;
+  width: 595px;
+
   text-align: right;
+  margin-bottom: 24px;
+  justify-content: flex-end;
 }
+
 .banner-content p {
+  font-size: 16px;
+  margin-top: 24px;
+  color: #444343;
+  line-height: 26px;
   height: 78px;
   width: 494px;
-  line-height: 26px;
   text-align: right;
+  margin-bottom: 32px;
+}
+
+.banner-content button {
+  padding: 21px 25px;
+  font-size: 20px;
+  background-color: #f15b22;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.fimage {
 }
